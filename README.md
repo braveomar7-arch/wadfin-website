@@ -86,3 +86,24 @@ Top-level navigation:
 - Partner With Us
 
 Dropdowns and a mega-menu now group secondary pages and programme areas so the desktop header remains clean and the mobile menu remains usable.
+
+
+## V3 — Clean public URLs
+
+This version uses folder-based GitHub Pages routes:
+- `/` instead of `/index.html`
+- `/about/` instead of `/about.html`
+- `/our-work/` instead of `/work.html`
+- `/research/`
+- `/membership/`
+- `/partnerships/`
+- `/governance/`
+- `/contact/`
+
+Legacy `.html` pages remain only as redirects, so old links still work.
+
+The package includes:
+- `CNAME` for `www.wadfin.org`
+- `sitemap.xml`
+- updated `robots.txt`
+- canonical URLs for SEO
