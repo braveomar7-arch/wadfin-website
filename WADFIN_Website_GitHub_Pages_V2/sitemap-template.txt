@@ -1,0 +1,10 @@
+Replace YOUR_GITHUB_USERNAME and repository name after publishing:
+
+https://YOUR_GITHUB_USERNAME.github.io/wadfin-website/
+https://YOUR_GITHUB_USERNAME.github.io/wadfin-website/about.html
+https://YOUR_GITHUB_USERNAME.github.io/wadfin-website/work.html
+https://YOUR_GITHUB_USERNAME.github.io/wadfin-website/research.html
+https://YOUR_GITHUB_USERNAME.github.io/wadfin-website/membership.html
+https://YOUR_GITHUB_USERNAME.github.io/wadfin-website/partnerships.html
+https://YOUR_GITHUB_USERNAME.github.io/wadfin-website/governance.html
+https://YOUR_GITHUB_USERNAME.github.io/wadfin-website/contact.html
