@@ -70,3 +70,19 @@ The homepage uses capacity statistics sourced to the INTERPOL Africa Cyberthreat
 This GitHub Pages version is fully static. It deliberately does not include a contact form that pretends to send information without a backend. WhatsApp and telephone actions are functional.
 
 For a later contact form, connect a service such as Formspree or deploy a small serverless endpoint after deciding the organisation's privacy/data-retention policy.
+
+
+## V2 navigation redesign
+
+The header has been simplified for a more institutional look.
+
+Top-level navigation:
+- Home
+- About
+- Our Work
+- Knowledge Hub
+- Get Involved
+- Contact
+- Partner With Us
+
+Dropdowns and a mega-menu now group secondary pages and programme areas so the desktop header remains clean and the mobile menu remains usable.
