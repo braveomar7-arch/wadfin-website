@@ -1,28 +1,26 @@
-WADFIN — IONOS DEPLOYMENT
+WADFIN IONOS — Restored Original Design + Clean URLs
 
-1. Extract this ZIP on your computer.
-2. Upload ALL contents to your IONOS webspace root (usually the folder assigned to wadfin.org).
-3. Make sure `.htaccess` is uploaded. Some file managers hide dot-files.
-4. Confirm the root contains:
-   index.html
-   .htaccess
-   favicon.ico
-   sitemap.xml
-   robots.txt
-   assets/
-   about/
-   our-work/
-   research/
-   membership/
-   partnerships/
-   governance/
-   contact/
-5. Test:
-   https://www.wadfin.org/
-   https://www.wadfin.org/contact/
-6. Old URLs such as /contact.html should 301 redirect to /contact/.
-7. If IONOS uses a different document root, upload these files to that assigned root.
+This version keeps the same website design/content from before today's visual edits.
+Only technical changes were made:
+- favicon added
+- clean folder URLs
+- permanent redirects from old .html URLs
+- canonical URLs
+- sitemap and robots.txt
+- HTTPS/www redirect via .htaccess
 
-Important:
-- This build is for IONOS hosting, not GitHub Pages.
-- The website now includes the founder portrait, favicon, clean URLs, redirects, SEO metadata, structured organisation data, caching/compression rules and basic security headers.
+Upload ALL files/folders to the IONOS document root for wadfin.org.
+Make sure `.htaccess` is uploaded (dot-files may be hidden).
+
+Expected clean URLs:
+https://www.wadfin.org/
+https://www.wadfin.org/about/
+https://www.wadfin.org/our-work/
+https://www.wadfin.org/research/
+https://www.wadfin.org/membership/
+https://www.wadfin.org/partnerships/
+https://www.wadfin.org/governance/
+https://www.wadfin.org/contact/
+
+Old URLs such as /contact.html will permanently redirect to /contact/.
+Google may take some time to update old search-result URLs after recrawling.

@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Canonical host
+RewriteCond %{HTTP_HOST} ^wadfin\.org$ [NC]
+RewriteRule ^ https://www.wadfin.org%{REQUEST_URI} [L,R=301]
+
+# Redirect old .html URLs permanently
+Redirect 301 /index.html /
+Redirect 301 /about.html /about/
+Redirect 301 /work.html /our-work/
+Redirect 301 /research.html /research/
+Redirect 301 /membership.html /membership/
+Redirect 301 /partnerships.html /partnerships/
+Redirect 301 /governance.html /governance/
+Redirect 301 /contact.html /contact/
