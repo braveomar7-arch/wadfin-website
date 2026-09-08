@@ -314,3 +314,52 @@ table.data th{background:var(--navy);color:#fff}
   .nav-cta{display:none}
   .brand img{width:190px}
 }
+
+
+/* ===== IONOS Professional Final Enhancements ===== */
+.founder-photo-wrap{
+  position:relative;
+  border-radius:26px;
+  overflow:hidden;
+  min-height:440px;
+  background:#0a2f5c;
+  box-shadow:var(--shadow);
+}
+.founder-photo{
+  width:100%;
+  height:100%;
+  min-height:440px;
+  object-fit:cover;
+  object-position:center 18%;
+}
+.founder-photo-caption{
+  position:absolute;
+  left:0; right:0; bottom:0;
+  padding:24px 28px;
+  background:linear-gradient(180deg,transparent,rgba(4,24,48,.92));
+  color:#fff;
+}
+.founder-photo-caption strong{display:block;font-size:1.25rem}
+.founder-photo-caption span{display:block;color:#dbe9f3;margin-top:3px}
+.founder-inline{
+  display:grid;
+  grid-template-columns:180px 1fr;
+  gap:28px;
+  align-items:center;
+  padding:24px;
+  margin:18px 0 28px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:#fff;
+}
+.founder-inline img{
+  width:180px;
+  height:220px;
+  object-fit:cover;
+  object-position:center 15%;
+  border-radius:14px;
+}
+@media(max-width:700px){
+  .founder-inline{grid-template-columns:1fr}
+  .founder-inline img{width:100%;height:auto;max-height:420px}
+}
