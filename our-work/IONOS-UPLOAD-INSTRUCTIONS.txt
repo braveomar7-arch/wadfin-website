@@ -1,0 +1,28 @@
+WADFIN — IONOS DEPLOYMENT
+
+1. Extract this ZIP on your computer.
+2. Upload ALL contents to your IONOS webspace root (usually the folder assigned to wadfin.org).
+3. Make sure `.htaccess` is uploaded. Some file managers hide dot-files.
+4. Confirm the root contains:
+   index.html
+   .htaccess
+   favicon.ico
+   sitemap.xml
+   robots.txt
+   assets/
+   about/
+   our-work/
+   research/
+   membership/
+   partnerships/
+   governance/
+   contact/
+5. Test:
+   https://www.wadfin.org/
+   https://www.wadfin.org/contact/
+6. Old URLs such as /contact.html should 301 redirect to /contact/.
+7. If IONOS uses a different document root, upload these files to that assigned root.
+
+Important:
+- This build is for IONOS hosting, not GitHub Pages.
+- The website now includes the founder portrait, favicon, clean URLs, redirects, SEO metadata, structured organisation data, caching/compression rules and basic security headers.

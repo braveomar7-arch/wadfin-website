@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.wadfin.org/sitemap.xml
